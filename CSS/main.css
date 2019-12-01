@@ -1,0 +1,105 @@
+﻿
+.building {
+    position: relative;
+    margin:0;
+    display:inline-block;
+}
+
+.firstElevator {
+    margin-left: 100px !important;
+}
+
+.floorHeight {
+    height: 110px;
+}
+
+.countDownClock {
+    font-size: 30px;
+    color: black;
+    float: right;
+    z-index: 1000;
+    background-color: white;
+}
+
+.elevatorshaft {
+    position: absolute;
+    margin-left: 200px;
+    background-color: #c73b65;
+    width: 50px;
+    text-align: center;
+    font-size: 24pt;
+    font-family: Futura;
+    color: #9e9937;
+    bottom: 0px;
+}
+
+.elevator {
+    position: absolute;
+    bottom: 0px;
+    background: #1B1B1B;
+    height: 110px;
+    width: 100%;
+    font-size: 12pt;
+    overflow: hidden;
+    background: url(../elv.png);
+    background-size: 50px 110px;
+    background-repeat: no-repeat;
+    
+}
+
+.elevator > div {
+    position: relative;
+    top: -343px;
+}
+
+.elevator > div > div {
+    position: relative;
+    height: 110px;
+}
+
+#elevator1 {
+    left: 0px;
+}
+
+#elevator2 {
+    left: 67px; 
+}
+
+#elevator3 {
+    left: 134px; 
+}
+
+#elevator4 {
+    left: 201px; 
+}
+
+#elevator5 {
+    left: 268px; 
+}
+
+#elevator6 {
+    left: 335px; 
+}
+
+#elevator7 {
+    left: 402px;
+}
+
+#elevator8 {
+    left: 469px;
+}
+
+
+#buttons {
+    position: relative;
+    margin: 0;
+}
+
+.button-floor {
+    height: 23px;
+}
+
+.on {
+    color: green;
+}
+
